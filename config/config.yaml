@@ -1,0 +1,67 @@
+# Project Configuration: Demand Forecasting & Inventory Optimization
+project:
+  name: "Demand Forecasting & Inventory Optimization"
+  version: "1.0.0"
+  description: "End-to-End Demand Forecasting, Inventory Planning & Operational Decision Intelligence"
+  seed: 42
+
+paths:
+  raw_data_dir: "data/raw"
+  raw_sales_file: "data/raw/historical_sales.csv"
+  processed_data_dir: "data/processed"
+  processed_demand_parquet: "data/processed/demand_daily.parquet"
+  processed_demand_csv: "data/processed/demand_daily.csv"
+  duckdb_path: "data/processed/analytics.duckdb"
+  models_dir: "models/saved_models"
+  outputs_dir: "outputs"
+  forecasts_dir: "outputs/forecasts"
+  metrics_dir: "outputs/metrics"
+  inventory_dir: "outputs/inventory"
+  scenarios_dir: "outputs/scenarios"
+  charts_dir: "outputs/charts"
+  reports_dir: "outputs/reports"
+  powerbi_dir: "outputs/powerbi"
+
+data:
+  date_col: "date"
+  sku_col: "sku_id"
+  store_col: "store_id"
+  target_col: "quantity"
+  category_col: "category"
+  unit_price_col: "unit_price"
+  unit_cost_col: "unit_cost"
+  grain: "date x store_id x sku_id"
+  start_date: "2023-01-01"
+  end_date: "2024-12-31"
+
+forecasting:
+  frequency: "D"
+  forecast_horizon_days: 28
+  seasonal_period_days: 7
+  backtesting:
+    enabled: true
+    n_splits: 3
+    test_horizon_days: 28
+    gap_days: 0
+  models:
+    baselines:
+      - "naive"
+      - "seasonal_naive_7d"
+      - "moving_average_7d"
+      - "moving_average_28d"
+    statistical:
+      - "holt_winters"
+    ml:
+      - "lightgbm"
+  lightgbm:
+    objective: "regression"
+    metric: "rmse"
+    boosting_type: "gbdt"
+    n_estimators: 300
+    learning_rate: 0.05
+    num_leaves: 31
+    min_child_samples: 20
+    subsample: 0.8
+    colsample_bytree: 0.8
+    random_state: 42
+    verbose: -1
