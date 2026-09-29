@@ -1,0 +1,7 @@
+model_name,wape_pct,mae,rmse,total_bias_units,normalized_bias_pct,evaluation_points
+Holt_Winters,29.4,10.069,17.785,-20554.41,-4.76,12600
+Moving_Average_7d,31.44,10.769,18.299,-18395.8,-4.26,12600
+Moving_Average_28d,31.73,10.869,19.079,-34769.64,-8.06,12600
+LightGBM,38.03,13.027,20.897,26154.52,6.06,12600
+Seasonal_Naive_7d,38.31,13.123,22.225,-18396.0,-4.26,12600
+Naive,39.06,13.38,22.676,-59308.0,-13.74,12600
