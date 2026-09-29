@@ -1,0 +1,2 @@
+total_sku_locations,reorder_triggered_count,critical_stockout_risk_count,high_stockout_risk_count,excess_inventory_count,total_recommended_order_value_usd,total_excess_capital_usd
+150,50,14,29,18,411679.1,348713.62
