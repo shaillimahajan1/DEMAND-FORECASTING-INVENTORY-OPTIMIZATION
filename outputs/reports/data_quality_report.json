@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-09-29T15:51:28.032966",
+  "overall_status": "PASSED",
+  "total_records": 109650,
+  "unique_skus": 50,
+  "unique_stores": 3,
+  "unique_categories": 5,
+  "date_range": {
+    "start": "2023-01-01",
+    "end": "2024-12-31",
+    "calendar_days": 731
+  },
+  "zero_demand_periods": {
+    "count": 7947,
+    "percentage": 7.25,
+    "interpretation": "Explicit zero-demand observation (no stockout assumption)"
+  },
+  "checks": {
+    "completeness": {
+      "check": "Completeness",
+      "passed": true,
+      "total_rows": 109650,
+      "columns_with_nulls": {},
+      "status": "PASSED"
+    },
+    "uniqueness": {
+      "check": "Uniqueness (Grain Integrity)",
+      "passed": true,
+      "grain": "date x store_id x sku_id",
+      "duplicate_grain_records": 0,
+      "status": "PASSED"
+    },
+    "validity": {
+      "check": "Value Validity",
+      "passed": true,
+      "negative_demand_count": 0,
+      "non_positive_price_count": 0,
+      "non_positive_cost_count": 0,
+      "status": "PASSED"
+    },
+    "temporal_integrity": {
+      "check": "Temporal Integrity",
+      "passed": true,
+      "start_date": "2023-01-01",
+      "end_date": "2024-12-31",
+      "expected_calendar_days": 731,
+      "series_with_gaps": 0,
+      "status": "PASSED"
+    }
+  }
+}

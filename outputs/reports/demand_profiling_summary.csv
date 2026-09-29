@@ -1,0 +1,51 @@
+sku_id,sku_name,category,unit_price,unit_cost,total_demand,total_revenue,total_margin,mean_daily_demand,std_daily_demand,cv,cv2,adi,zero_demand_pct,annual_trend_pct,syntetos_boylan_class,operational_segment
+SKU-APPR-002,Down-Alternative Insulated Winter Puffer Jacket,Apparel,148.78,62.0,80812,11979264.0,6968920.0,110.55,61.93,0.56,0.314,1.0,0.0,3.16,Smooth,Volatile
+SKU-ELEC-001,Pro Wireless Noise-Canceling Earbuds,Electronics,129.0,58.5,66003,8490049.0,4628874.0,90.29,19.98,0.221,0.049,1.0,0.0,18.16,Smooth,Growing
+SKU-ELEC-005,Mechanical Gaming Keyboard RGB,Electronics,109.24,52.0,56400,6142023.0,3209223.0,77.15,42.05,0.545,0.297,1.0,0.0,28.25,Smooth,Growing
+SKU-APPR-005,Water-Resistant Commuter Backpack with Laptop Sleeve,Apparel,69.54,28.5,75500,5236050.0,3084300.0,103.28,42.91,0.415,0.173,1.0,0.0,8.5,Smooth,Seasonal
+SKU-HOME-006,HEPA Air Purifier Compact Room Model,Home & Kitchen,89.33,42.0,50676,4510464.0,2382072.25,69.32,33.27,0.48,0.23,1.0,0.0,-2.54,Smooth,Seasonal
+SKU-ELEC-008,4K Ultra-HD Streaming Media Player,Electronics,49.64,22.0,88312,4370474.0,2427610.25,120.81,65.62,0.543,0.295,1.0,0.0,28.4,Smooth,Growing
+SKU-ELEC-010,Enterprise High-Resolution Studio Microphone,Electronics,248.04,115.0,16893,4180143.75,2237448.75,23.11,9.82,0.425,0.181,1.0,0.0,-0.58,Smooth,Seasonal
+SKU-ELEC-006,Portable Bluetooth Rugged Speaker,Electronics,59.52,26.5,64922,3848401.75,2127969.0,88.81,37.15,0.418,0.175,1.0,0.0,-1.2,Smooth,Seasonal
+SKU-APPR-010,Full-Grain Italian Leather Travel Duffel,Apparel,287.79,135.0,12651,3628774.0,1920889.25,17.31,9.37,0.541,0.293,1.0,0.0,4.28,Smooth,Volatile
+SKU-GROC-001,Organic Whole Bean Espresso Roast 2 lb,Grocery & Pantry,21.84,9.2,161645,3521256.75,2034122.75,221.13,36.98,0.167,0.028,1.0,0.0,2.6,Smooth,Stable
+SKU-HLTH-010,Clinical LED Infrared Facial Rejuvenation Mask,Health & Care,228.21,98.0,15250,3469259.5,1974759.5,20.86,10.36,0.496,0.246,1.0,0.0,2.9,Smooth,Seasonal
+SKU-GROC-006,Electrolyte Enhanced Sparkling Mineral Water (24-Pack),Grocery & Pantry,26.79,11.8,129431,3460197.5,1932911.75,177.06,73.53,0.415,0.172,1.0,0.0,1.95,Smooth,Seasonal
+SKU-APPR-001,Men's Classic Cotton Crewneck T-Shirt 3-Pack,Apparel,27.79,10.5,123711,3429369.25,2130403.75,169.24,31.04,0.183,0.034,1.0,0.0,0.88,Smooth,Stable
+SKU-APPR-003,Breathable Quick-Dry Athletic Shorts,Apparel,29.76,11.2,112692,3345568.0,2083417.62,154.16,73.06,0.474,0.225,1.0,0.0,1.73,Smooth,Seasonal
+SKU-ELEC-003,Smart Home Environmental Sensor Hub,Electronics,79.44,36.0,42061,3332647.25,1818451.5,57.54,13.92,0.242,0.059,1.0,0.0,17.71,Smooth,Growing
+SKU-APPR-008,Fleece-Lined Thermal Baselayer Leggings,Apparel,34.74,13.8,95183,3298312.75,1984787.38,130.21,66.07,0.507,0.257,1.0,0.0,3.27,Smooth,Volatile
+SKU-HLTH-003,Grass-Fed Hydrolyzed Collagen Peptides Powder 1 lb,Health & Care,36.72,15.5,89986,3294682.75,1899899.75,123.1,28.66,0.233,0.054,1.0,0.0,19.17,Smooth,Growing
+SKU-ELEC-002,Ultra-Fast USB-C GaN Charger 65W,Electronics,34.73,14.2,94457,3271440.0,1930150.5,129.22,22.26,0.172,0.03,1.0,0.0,1.35,Smooth,Stable
+SKU-HOME-008,Non-Stick 10-Piece Baking Sheet Set,Home & Kitchen,49.6,21.0,63298,3128754.5,1799496.62,86.59,50.7,0.585,0.343,1.0,0.0,27.92,Smooth,Growing
+SKU-HLTH-001,Daily Multivitamin Formula with Zinc & D3 (90 Count),Health & Care,22.84,8.9,136873,3117992.5,1899822.88,187.24,30.92,0.165,0.027,1.0,0.0,1.92,Smooth,Stable
+SKU-APPR-006,Lightweight UV Sun Protection Fishing Hoodie,Apparel,42.69,16.5,70866,3019329.5,1850040.75,96.94,43.95,0.453,0.205,1.0,0.0,0.65,Smooth,Seasonal
+SKU-HOME-002,Stainless Steel Thermal Travel Mug 16oz,Home & Kitchen,24.83,9.8,107390,2661179.75,1608757.88,146.91,61.85,0.421,0.177,1.0,0.0,0.84,Smooth,Seasonal
+SKU-HOME-003,Airtight Glass Food Storage Containers (Set of 8),Home & Kitchen,44.68,19.5,57006,2539698.0,1428081.0,77.98,17.57,0.225,0.051,1.0,0.0,18.0,Smooth,Growing
+SKU-HLTH-004,Sonic Electric Toothbrush Replacement Heads (4-Pack),Health & Care,29.73,10.5,84544,2505167.0,1617455.0,115.66,21.52,0.186,0.035,1.0,0.0,1.5,Smooth,Stable
+SKU-HOME-001,Cast Iron Pre-Seasoned Skillet 12-Inch,Home & Kitchen,39.71,16.8,61883,2450155.0,1410520.75,84.66,15.89,0.188,0.035,1.0,0.0,2.37,Smooth,Stable
+SKU-ELEC-004,Braided HDMI 2.1 Ultra High Speed Cable,Electronics,19.83,7.5,112691,2228930.0,1383747.62,154.16,27.22,0.177,0.031,1.0,0.0,1.31,Smooth,Stable
+SKU-HLTH-008,Aromatherapy Ultrasonic Essential Oil Diffuser,Health & Care,39.73,16.0,56054,2225075.5,1328211.5,76.68,40.13,0.523,0.274,1.0,0.0,24.96,Smooth,Growing
+SKU-GROC-002,Raw California Organic Almonds Unsalted 3 lb,Grocery & Pantry,18.35,8.0,120141,2197275.0,1236146.88,164.35,28.31,0.172,0.03,1.0,0.0,1.85,Smooth,Stable
+SKU-HLTH-002,Mineral Broad-Spectrum Sunscreen Lotion SPF 50 6oz,Health & Care,17.86,6.8,121937,2171633.5,1342462.0,166.81,83.8,0.502,0.252,1.0,0.0,0.05,Smooth,Volatile
+SKU-GROC-003,Extra Virgin Cold-Pressed Olive Oil 1 Liter,Grocery & Pantry,19.85,8.5,108188,2140949.0,1221351.12,148.0,31.93,0.216,0.047,1.0,0.0,19.56,Smooth,Growing
+SKU-GROC-004,Organic Ceremonial Grade Matcha Green Tea 100g,Grocery & Pantry,29.78,12.2,71991,2137513.75,1259223.38,98.48,24.97,0.254,0.064,1.0,0.0,19.55,Smooth,Growing
+SKU-APPR-004,Seamless Moisture-Wicking Merino Wool Running Socks,Apparel,16.88,6.1,125080,2105724.0,1342736.0,171.11,37.6,0.22,0.048,1.0,0.0,18.79,Smooth,Growing
+SKU-HOME-010,Automatic Touchless Stainless Trash Can 13 Gal,Home & Kitchen,74.54,33.0,27362,2035440.25,1132494.12,37.43,14.75,0.394,0.155,1.0,0.0,3.37,Smooth,Seasonal
+SKU-HOME-005,Organic Bamboo Cutting Board 3-Piece Set,Home & Kitchen,29.77,12.0,66840,1985339.25,1183259.12,91.44,16.48,0.18,0.032,1.0,0.0,1.58,Smooth,Stable
+SKU-GROC-008,Gourmet Dark Chocolate Sea Salt Truffles Gift Box,Grocery & Pantry,24.79,9.9,80123,1979286.25,1186068.62,109.61,66.89,0.61,0.372,1.0,0.0,26.82,Smooth,Growing
+SKU-HLTH-005,Elderberry Immune Support Syrup with Vitamin C 8oz,Health & Care,19.83,7.4,88206,1745232.0,1092507.62,120.66,58.48,0.485,0.235,1.0,0.0,4.45,Smooth,Seasonal
+SKU-HLTH-006,Natural Sulfate-Free Restorative Hair Mask 250ml,Health & Care,24.81,9.2,62205,1540144.12,967858.19,85.1,19.96,0.235,0.055,1.0,0.0,17.58,Smooth,Growing
+SKU-GROC-005,Artisanal Holiday Spiced Hot Cocoa Mix 500g,Grocery & Pantry,14.88,5.6,91559,1357018.75,844288.25,125.25,78.81,0.629,0.396,1.0,0.0,26.73,Smooth,Growing
+SKU-APPR-007,Vintage Low-Rise Bootcut Denim Jeans,Apparel,54.58,23.0,24283,1321421.0,762911.94,33.22,10.29,0.31,0.096,1.0,0.0,-19.31,Smooth,Declining
+SKU-HOME-004,Digital Instant-Read Meat Thermometer,Home & Kitchen,18.86,7.2,67920,1277477.5,788453.38,92.91,38.51,0.414,0.172,1.0,0.0,-0.83,Smooth,Seasonal
+SKU-GROC-010,Imported White Truffle Infused Olive Oil Reserve 250ml,Grocery & Pantry,64.49,29.0,15150,974916.75,535566.75,20.73,8.97,0.433,0.188,1.0,0.0,7.63,Smooth,Seasonal
+SKU-HLTH-009,Medical Grade Continuous Glucose Sensor Transmitter,Health & Care,183.67,82.0,4873,894761.75,495175.75,6.67,6.65,0.997,0.995,1.57,36.11,6.87,Lumpy,Intermittent
+SKU-HOME-009,Commercial Heavy Duty Stand Mixer Motor Assembly,Home & Kitchen,157.88,68.0,4697,743174.0,423777.94,6.43,6.67,1.038,1.078,1.65,39.53,-5.21,Lumpy,Intermittent
+SKU-GROC-009,Bulk Food Grade Citric Acid Crystals 50 lb Sack,Grocery & Pantry,88.31,38.0,6604,582349.25,331397.25,9.03,8.86,0.981,0.961,1.58,36.53,-4.35,Lumpy,Intermittent
+SKU-APPR-009,Custom Embroidered Alpine Ski Racing Bib,Apparel,119.14,48.0,4699,559758.0,334206.0,6.43,6.76,1.052,1.106,1.67,39.95,1.95,Lumpy,Intermittent
+SKU-HOME-007,Countertop Citrus Juicer Manual Press,Home & Kitchen,22.86,9.5,20333,463664.12,270500.62,27.82,7.73,0.278,0.077,1.0,0.0,-19.55,Smooth,Declining
+SKU-ELEC-009,Specialty Motherboard Replacement Capacitor Pack,Electronics,44.66,15.0,6630,295825.5,196375.5,9.07,9.0,0.992,0.984,1.57,36.39,-2.24,Lumpy,Intermittent
+SKU-ELEC-007,Micro-USB Legacy Charging Cable 2m,Electronics,8.93,3.1,32738,291530.94,190043.12,44.79,12.8,0.286,0.082,1.0,0.0,-21.47,Smooth,Declining
+SKU-GROC-007,Artificially Flavored Breakfast Cereal Marshmallow 18oz,Grocery & Pantry,5.45,2.2,44171,239842.0,142665.8,60.43,15.59,0.258,0.067,1.0,0.0,-21.87,Smooth,Declining
+SKU-HLTH-007,Alcohol Hand Sanitizer Gel Discontinued Formula 500ml,Health & Care,6.94,2.5,27934,193160.75,123325.77,38.21,11.65,0.305,0.093,1.0,0.0,-20.81,Smooth,Declining
