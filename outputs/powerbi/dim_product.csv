@@ -1,0 +1,51 @@
+sku_id,sku_name,category,sub_category,unit_price,unit_cost,abc_class,xyz_class,abc_xyz_segment,gross_margin_pct
+SKU-APPR-001,Men's Classic Cotton Crewneck T-Shirt 3-Pack,Apparel,Basics,23.79,10.5,A,X,AX,55.86
+SKU-APPR-002,Down-Alternative Insulated Winter Puffer Jacket,Apparel,Outerwear,149.99,62.0,A,Y,AY,58.66
+SKU-APPR-003,Breathable Quick-Dry Athletic Shorts,Apparel,Sportswear,29.99,11.2,A,Y,AY,62.65
+SKU-APPR-004,Seamless Moisture-Wicking Merino Wool Running Socks,Apparel,Accessories,16.99,6.1,B,X,BX,64.1
+SKU-APPR-005,Water-Resistant Commuter Backpack with Laptop Sleeve,Apparel,Bags,59.49,28.5,A,Y,AY,52.09
+SKU-APPR-006,Lightweight UV Sun Protection Fishing Hoodie,Apparel,Outdoor,42.99,16.5,A,Y,AY,61.62
+SKU-APPR-007,Vintage Low-Rise Bootcut Denim Jeans,Apparel,Denim,54.99,23.0,C,Y,CY,58.17
+SKU-APPR-008,Fleece-Lined Thermal Baselayer Leggings,Apparel,Base Layer,34.99,13.8,A,Y,AY,60.56
+SKU-APPR-009,Custom Embroidered Alpine Ski Racing Bib,Apparel,Specialty Sport,120.0,48.0,C,Z,CZ,60.0
+SKU-APPR-010,Full-Grain Italian Leather Travel Duffel,Apparel,Luxury Bags,289.99,135.0,A,Y,AY,53.45
+SKU-ELEC-001,Pro Wireless Noise-Canceling Earbuds,Electronics,Audio,129.99,58.5,A,X,AX,55.0
+SKU-ELEC-002,Ultra-Fast USB-C GaN Charger 65W,Electronics,Accessories,34.99,14.2,A,X,AX,59.42
+SKU-ELEC-003,Smart Home Environmental Sensor Hub,Electronics,Smart Home,79.99,36.0,A,X,AX,54.99
+SKU-ELEC-004,Braided HDMI 2.1 Ultra High Speed Cable,Electronics,Cables,19.99,7.5,B,X,BX,62.48
+SKU-ELEC-005,Mechanical Gaming Keyboard RGB,Electronics,Gaming,109.99,52.0,A,Y,AY,52.72
+SKU-ELEC-006,Portable Bluetooth Rugged Speaker,Electronics,Audio,59.99,26.5,A,Y,AY,55.83
+SKU-ELEC-007,Micro-USB Legacy Charging Cable 2m,Electronics,Cables,8.99,3.1,C,X,CX,65.52
+SKU-ELEC-008,4K Ultra-HD Streaming Media Player,Electronics,Home Video,42.49,22.0,A,Y,AY,48.22
+SKU-ELEC-009,Specialty Motherboard Replacement Capacitor Pack,Electronics,Components,45.0,15.0,C,Z,CZ,66.67
+SKU-ELEC-010,Enterprise High-Resolution Studio Microphone,Electronics,Professional Audio,249.99,115.0,A,Y,AY,54.0
+SKU-GROC-001,Organic Whole Bean Espresso Roast 2 lb,Grocery & Pantry,Coffee & Tea,21.99,9.2,A,X,AX,58.16
+SKU-GROC-002,Raw California Organic Almonds Unsalted 3 lb,Grocery & Pantry,Nuts & Snacks,18.49,8.0,B,X,BX,56.73
+SKU-GROC-003,Extra Virgin Cold-Pressed Olive Oil 1 Liter,Grocery & Pantry,Oils & Vinegars,19.99,8.5,B,X,BX,57.48
+SKU-GROC-004,Organic Ceremonial Grade Matcha Green Tea 100g,Grocery & Pantry,Coffee & Tea,29.99,12.2,B,X,BX,59.32
+SKU-GROC-005,Artisanal Holiday Spiced Hot Cocoa Mix 500g,Grocery & Pantry,Seasonal Beverages,14.99,5.6,C,Y,CY,62.64
+SKU-GROC-006,Electrolyte Enhanced Sparkling Mineral Water (24-Pack),Grocery & Pantry,Beverages,26.99,11.8,A,Y,AY,56.28
+SKU-GROC-007,Artificially Flavored Breakfast Cereal Marshmallow 18oz,Grocery & Pantry,Cereals,5.49,2.2,C,X,CX,59.93
+SKU-GROC-008,Gourmet Dark Chocolate Sea Salt Truffles Gift Box,Grocery & Pantry,Confections,24.99,9.9,C,Y,CY,60.38
+SKU-GROC-009,Bulk Food Grade Citric Acid Crystals 50 lb Sack,Grocery & Pantry,Bulk Ingredients,75.65,38.0,C,Z,CZ,49.77
+SKU-GROC-010,Imported White Truffle Infused Olive Oil Reserve 250ml,Grocery & Pantry,Gourmet Specialty,64.99,29.0,C,Y,CY,55.38
+SKU-HLTH-001,Daily Multivitamin Formula with Zinc & D3 (90 Count),Health & Care,Supplements,22.99,8.9,A,X,AX,61.29
+SKU-HLTH-002,Mineral Broad-Spectrum Sunscreen Lotion SPF 50 6oz,Health & Care,Suncare,17.99,6.8,B,Y,BY,62.2
+SKU-HLTH-003,Grass-Fed Hydrolyzed Collagen Peptides Powder 1 lb,Health & Care,Nutrition,36.99,15.5,A,X,AX,58.1
+SKU-HLTH-004,Sonic Electric Toothbrush Replacement Heads (4-Pack),Health & Care,Oral Care,29.99,10.5,B,X,BX,64.99
+SKU-HLTH-005,Elderberry Immune Support Syrup with Vitamin C 8oz,Health & Care,Wellness,19.99,7.4,C,Y,CY,62.98
+SKU-HLTH-006,Natural Sulfate-Free Restorative Hair Mask 250ml,Health & Care,Haircare,24.99,9.2,C,X,CX,63.19
+SKU-HLTH-007,Alcohol Hand Sanitizer Gel Discontinued Formula 500ml,Health & Care,Sanitation,6.99,2.5,C,X,CX,64.23
+SKU-HLTH-008,Aromatherapy Ultrasonic Essential Oil Diffuser,Health & Care,Home Wellness,39.99,16.0,B,Y,BY,59.99
+SKU-HLTH-009,Medical Grade Continuous Glucose Sensor Transmitter,Health & Care,Medical Devices,185.0,82.0,C,Z,CZ,55.68
+SKU-HLTH-010,Clinical LED Infrared Facial Rejuvenation Mask,Health & Care,Skincare Tech,229.99,98.0,A,Y,AY,57.39
+SKU-HOME-001,Cast Iron Pre-Seasoned Skillet 12-Inch,Home & Kitchen,Cookware,39.99,16.8,B,X,BX,57.99
+SKU-HOME-002,Stainless Steel Thermal Travel Mug 16oz,Home & Kitchen,Drinkware,24.99,9.8,A,Y,AY,60.78
+SKU-HOME-003,Airtight Glass Food Storage Containers (Set of 8),Home & Kitchen,Storage,44.99,19.5,B,X,BX,56.66
+SKU-HOME-004,Digital Instant-Read Meat Thermometer,Home & Kitchen,Kitchen Tools,18.99,7.2,C,Y,CY,62.09
+SKU-HOME-005,Organic Bamboo Cutting Board 3-Piece Set,Home & Kitchen,Kitchen Tools,29.99,12.0,B,X,BX,59.99
+SKU-HOME-006,HEPA Air Purifier Compact Room Model,Home & Kitchen,Appliances,89.99,42.0,A,Y,AY,53.33
+SKU-HOME-007,Countertop Citrus Juicer Manual Press,Home & Kitchen,Kitchen Tools,22.99,9.5,C,X,CX,58.68
+SKU-HOME-008,Non-Stick 10-Piece Baking Sheet Set,Home & Kitchen,Bakeware,49.99,21.0,A,Y,AY,57.99
+SKU-HOME-009,Commercial Heavy Duty Stand Mixer Motor Assembly,Home & Kitchen,Spare Parts,159.0,68.0,C,Z,CZ,57.23
+SKU-HOME-010,Automatic Touchless Stainless Trash Can 13 Gal,Home & Kitchen,Waste & Storage,74.99,33.0,B,Y,BY,55.99

@@ -1,0 +1,4 @@
+store_id,store_name,region,state,hub_tier
+FC-East,New York Tri-State Hub,East,New York,Tier-1 Primary Fulfillment Hub
+FC-West,California Pacific Hub,West,California,Tier-1 Primary Fulfillment Hub
+FC-Central,Chicago Midwest Hub,Central,Illinois,Tier-1 Primary Fulfillment Hub
