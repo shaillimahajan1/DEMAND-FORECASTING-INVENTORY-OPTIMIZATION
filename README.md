@@ -18,7 +18,24 @@ This platform is an enterprise-grade analytics engine designed to answer the cor
 > **"How much inventory should the business hold and reorder to balance stockout risk, target customer service levels, and excess working capital?"**
 
 Rather than treating forecasting as an isolated exercise, this system establishes an unbroken decision pipeline:
-$$\text{Historical Transactions} \longrightarrow \text{SQL Analytical Layer} \longrightarrow \text{Rolling Backtesting} \longrightarrow \text{Uncertainty Quantification} \longrightarrow \text{Safety Stock \& ROP} \longrightarrow \text{Automated POs} \longrightarrow \text{Power BI}$$
+
+```text
+Historical Transactions
+       ↓
+DuckDB SQL Analytical Layer
+       ↓
+Demand Profiling & ABC/XYZ
+       ↓
+Rolling-Origin Backtesting
+       ↓
+Forecast Uncertainty & Errors
+       ↓
+Safety Stock & Reorder Point
+       ↓
+Automated Purchase Orders
+       ↓
+Power BI Executive Dashboards
+```
 
 ### Key Execution Highlights (Verified Pipeline Results)
 - **109,650 Historical Sales Records** analyzed across 50 SKUs, 3 Regional Distribution Hubs, and 731 continuous calendar days.
