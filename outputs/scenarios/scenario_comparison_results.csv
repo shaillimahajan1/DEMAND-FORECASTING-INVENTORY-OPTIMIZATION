@@ -1,7 +1,7 @@
 scenario_id,scenario_name,demand_multiplier,lead_time_multiplier,target_service_level,volatility_multiplier,total_safety_stock_units,total_safety_stock_capital,delta_ss_capital_vs_baseline,total_recommended_order_units,total_recommended_order_value,delta_roq_value_vs_baseline,critical_stockout_risk_skus,high_stockout_risk_skus
-SCEN_01,Baseline Current State,1.0,1.0,0.95,1.0,16660.0,350113.66,0.0,24798.0,411679.1,0.0,14,29
-SCEN_02,Demand Surge (+15%),1.15,1.0,0.95,1.0,18292.0,382844.6,32730.94,31228.0,541414.7,129735.6,17,26
-SCEN_03,Lead Time Disruption (+20%),1.0,1.2,0.95,1.0,19380.0,406200.39,56086.73,30688.0,546715.2,135036.1,14,29
-SCEN_04,Premium Service Level (99%),1.0,1.0,0.99,1.0,23562.0,495176.27,145062.61,28073.0,493255.2,81576.1,14,29
-SCEN_05,Volatility Shock (CV +30%),1.0,1.0,0.95,1.3,18596.0,394030.14,43916.48,26112.0,444796.5,33117.4,14,29
-SCEN_06,"Compound Stress Test (+15% D, +20% LT, 98% SL)",1.15,1.2,0.98,1.15,27826.0,583221.6,233107.94,46180.0,905909.8,494230.7,17,27
+SCEN_01,Baseline Current State,1.0,1.0,0.95,1.0,200.0,5607.0,0.0,810.0,23220.0,0.0,0,2
+SCEN_02,Demand Surge (+15%),1.15,1.0,0.95,1.0,224.0,6314.0,707.0,979.0,28070.0,4850.0,0,2
+SCEN_03,Lead Time Disruption (+20%),1.0,1.2,0.95,1.0,236.0,6632.0,1025.0,954.0,27240.0,4020.0,0,2
+SCEN_04,Premium Service Level (99%),1.0,1.0,0.99,1.0,282.0,7935.0,2328.0,892.0,25520.0,2300.0,0,2
+SCEN_05,Volatility Shock (CV +30%),1.0,1.0,0.95,1.3,212.0,5937.0,330.0,822.0,23550.0,330.0,0,2
+SCEN_06,"Compound Stress Test (+15% D, +20% LT, 98% SL)",1.15,1.2,0.98,1.15,339.0,9527.0,3920.0,1217.0,34720.0,11500.0,0,2

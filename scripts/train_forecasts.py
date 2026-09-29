@@ -141,8 +141,10 @@ def run_forecasting_pipeline() -> dict[str, Any]:
         final_forecasts["forecast"] + z_val * final_forecasts["uncertainty_std"]
     ).round(2)
 
-    # Attach product metadata
-    sku_meta = df[["sku_id", "sku_name", "category", "sub_category", "unit_price", "unit_cost"]].drop_duplicates()
+    # Attach product metadata (unique per SKU)
+    sku_meta = df[["sku_id", "sku_name", "category", "sub_category", "unit_cost"]].drop_duplicates(subset=["sku_id"]).copy()
+    base_prices = df[df["promotion_flag"] == 0].groupby("sku_id")["unit_price"].first()
+    sku_meta["unit_price"] = sku_meta["sku_id"].map(base_prices)
     final_forecasts = final_forecasts.merge(sku_meta, on="sku_id", how="left")
 
     ff_path = out_fc_dir / "final_forecasts.csv"

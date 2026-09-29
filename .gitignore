@@ -47,7 +47,9 @@ htmlcov/
 *.duckdb.wal
 *.duckdb.tmp
 
-# OS generated files
+# Large duplicate CSVs (parquet is tracked for fast loading)
+data/processed/*.csv
+
 .DS_Store
 Thumbs.db
 ehthumbs.db

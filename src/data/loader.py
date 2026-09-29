@@ -45,13 +45,17 @@ def ensure_complete_temporal_grid(df: pd.DataFrame) -> pd.DataFrame:
     Ensure every SKU-Store series has a continuous, unbroken daily calendar sequence.
     Explicitly distinguishes between true zero demand (imputed 0) and missing observations.
     """
-    min_date = df["date"].min()
-    max_date = df["date"].max()
+    data = df.copy()
+    if not pd.api.types.is_datetime64_any_dtype(data["date"]):
+        data["date"] = pd.to_datetime(data["date"])
+
+    min_date = data["date"].min()
+    max_date = data["date"].max()
     full_dates = pd.date_range(min_date, max_date, freq="D")
 
     # Get unique store-sku metadata
     meta_cols = ["store_id", "store_name", "sku_id", "sku_name", "category", "sub_category", "unit_cost"]
-    store_skus = df[meta_cols].drop_duplicates()
+    store_skus = data[meta_cols].drop_duplicates()
 
     # Create full Cartesian index
     idx = pd.MultiIndex.from_product(
@@ -65,7 +69,7 @@ def ensure_complete_temporal_grid(df: pd.DataFrame) -> pd.DataFrame:
 
     # Merge actual transaction metrics
     merged = full_grid.merge(
-        df[["date", "store_id", "sku_id", "quantity", "unit_price", "revenue", "gross_margin", "promotion_flag"]],
+        data[["date", "store_id", "sku_id", "quantity", "unit_price", "revenue", "gross_margin", "promotion_flag"]],
         on=["date", "store_id", "sku_id"],
         how="left",
     )
